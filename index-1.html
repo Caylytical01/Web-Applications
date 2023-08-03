@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>
+            My Favorite Book
+        </title>
+
+        <meta charset="utf-8" />
+
+        <link href="style.css"  rel="stylesheet"/>
+    </head> 
+
+<body>
+        <header>  
+            <h1>My Favorite Book</h1>
+        </header>
+
+    <div id="left-nav-bar">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </div>
+        
+
+    <main>
+
+    <TABLE border =2 cellpadding=2 margin-top=2px>
+    <TR>
+       <th colspan="4">
+        <h4>Book</h4>
+       </th>
+    </TR align = center>
+       <TH>Title</TH>
+       <TH>Author</TH>
+       <th>Year</th>
+       <th>Links</th>
+
+       <tr>
+        <td>Fly Girl</td>
+        <td>Omar Tyree</td>
+        <td>2001</td>
+        <td>
+            <ul>
+                <li><a href="http://https://www.simonandschuster.com/books/Flyy-Girl/Omar-Tyree/9780743218573">Simon and Schuster</a></li>
+                <li><a href="https://www.publishersweekly.com/978-0-684-82928-9">Review</a></li>
+                <li><a href="https://www.bronzemagonline.com/flyy-girl-best-selling-author-omar-tyree-celebrates-26th-anniversary-of-the-epic-novel/">Movie</a></li>
+            </ul>
+            </td>  
+       </tr>
+    </TABLE>
+        <br>
+
+    <form method="POST" action="submit.php">
+        <fieldset>
+            <label for="Username">Username:</label>
+            <input type="text" name="Username" id="Username"
+            required= "required">
+            <br>
+            <label for="Password">Password:</label>
+            <input type="text" name="Password" id="Password"
+            required= "required">  
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Comments</legend>
+            <textarea name="Comments" id="Comments" rows="3" cols="45">
+
+            </textarea>
+        </fieldset>
+        <br>
+        <input type="reset" class="formButton"  value="Clear">
+        <input type="submit" class="formButton" value="Submit">
+    </form>
+    </main>
+   
+</body>
+<footer>&copy; 2021.  My Favorite Book LLC.   All Rights reserved. </footer>
+
+
+</html>
+
+
+
